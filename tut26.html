@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MG FITNESS</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500;800&family=IBM+Plex+Sans+Thai+Looped:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{margin: 0px;
+         padding: 0px;
+         background:url('https://p4.wallpaperbetter.com/wallpaper/565/506/328/sports-wallpaper-preview.jpg');
+         background-repeat: no-repeat;
+         height: 1500px;
+         width: 1500px;
+         background-size:contain ;
+        color: white; 
+         font-family:'Baloo Bhai 2', cursive; }
+         
+        .left{border: 0px solid red;
+              display: inline-block;
+              position: absolute;
+            left: 10px;}
+        
+        .mid{border: 0px solid green;
+            position: absolute;
+            left: 375px;
+            margin:8px auto;
+            display: block; 
+            width: 39%;
+        top: 4px;
+    height: 47px;}
+        
+        .right{border: 0px solid yellow;
+              display: inline-block;
+              top: 12px;
+              right: 12px;
+            position: absolute;}
+            .navbar{
+                     display: inline-block;
+                   }
+             .navbar li
+                       {
+                        display: inline-block;
+                       }
+            .navbar li a
+                        {
+                            color: white;
+                        text-decoration: none;
+                      padding: 34px 23px;}
+            .navbar li a:hover , .navbar li a:active
+                      {
+                          text-decoration: underline;
+                          color: greenyellow;
+                      }
+               .left img 
+                      { width: 54px;
+                        filter: invert(100%);
+                        position:relative ;
+                     margin: auto;
+                     display: inline-block;
+                    left: 14px;}
+                     .left div
+                           { 
+                            text-align: center; 
+                            line-height: 1px;
+                            font-size: 19px;
+                           }
+                      .btn
+                          {
+                              padding: 4px 14px;
+                              border: 0px solid grey;
+                              background:white;
+                              color: black;
+                              font-size: 12px;
+                              cursor: pointer;
+                              border-radius: 10px;
+                              font-family:'Baloo Bhai 2', cursive;
+                          }
+                          .btn:hover
+                             {
+                                 background-color: rgb(182, 255, 47);
+                             }
+                             .container
+                                    { border: 1px solid;
+                                      position: absolute;
+                                      top: 109px;
+                                      margin:106 80;
+                                      left: 8px;
+                                      width: 33%;
+                                      border-radius: 28px;
+                                      padding:35px;
+                                     }
+                       .form-group input
+                                    {   
+                                        text-align: center ;
+                                        display: block;
+                                        width: 340px;
+                                        padding: 1px;
+                                        border: 2px solid black;
+                                        margin: 3px;
+                                        border-radius: 11px;
+                                        font-size: 20px;
+                                        font-family:'Baloo Bhai 2', cursive;
+
+                                    }
+                        .container h1
+                                    {
+                                        text-align: center;
+                                        display: block;
+                                        position: relative;
+                                        left: -4px;
+                                    }
+                        .container button
+                                    {
+                                        display: block;
+                                        margin: auto;
+                                        font-size: 19px;
+                                        padding: 5px;
+                                        width: 128px;
+                                        left: -81px;
+                                        position: relative;
+                                        background-color:gainsboro ;
+
+                                    }
+         </style>
+<body>
+    
+
+<header class="header">
+    <div class="left">
+        <img src="https://icon-library.com/images/vacation_18-512.png" alt="#">
+    
+    <div> MG Fitness</div>
+    </div>
+    <div class="mid"> 
+        <ul class="navbar">
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Fitness Calculator</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul></div>
+    <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us Now</button>
+    </div> 
+</header>
+<div class="container">
+    <h1>Join the best Jim of Nagpur now</h1>
+    <form action="noction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your Locality">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your Mobile Number">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your Email-ID">
+        </div>
+        <button class="btn">Submit</button>
+    </form>
+</div>
+</body>
+</html>
